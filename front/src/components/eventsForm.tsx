@@ -174,9 +174,10 @@ const FormInput = styled.div`
 
 const Boton = styled.button`
   cursor: pointer;
-  background-color: grey;
-  color: black;
+  background-color: #0d72fe;
+  color: white;
   padding: 5px 1%;
   border: 1px solid black;
   border-radius: 5px;
+  margin: 9px;
 `;

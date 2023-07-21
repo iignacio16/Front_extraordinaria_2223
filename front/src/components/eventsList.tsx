@@ -46,17 +46,20 @@ const UL = styled.ul`
   justify-content: center;
   align-items: center;
 `;
+
 const LI = styled.li`
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
-  box-shadow: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 10px 10px;
   justify-content: center;
   align-items: center;
   text-align: left;
   margin: 5px;
-  width: 300px;
+  width: 500px;
   height: auto;
+    background-color: #f4f4f4;
 `;
 
 const BotonBorrar = styled.button`
@@ -64,9 +67,10 @@ const BotonBorrar = styled.button`
   top: 2px;
   right: 2px;
   display: flex;
-  padding: 2px;
+  padding: 5px;
   justify-content: flex-end;
   text-align: center;
   border: 1px solid black;
-  border-radius: 1px;
+  border-radius: 5px;
+  margin: 5px;
 `;
